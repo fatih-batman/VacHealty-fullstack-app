@@ -1,0 +1,26 @@
+.btn-event-edit{
+    background-color: #601AD2 !important;
+    color: white !important;
+    font-size: 0.7rem !important;
+}
+
+.eventList-title{
+    margin-top: 0.5rem !important;
+    font-weight: 700 !important;
+
+}
+
+.eventList-table{
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    color: #6D6D6D !important;
+}
+
+
+.event-list-buttons .btn.activeEventList, .event-list-buttons .btn:hover{
+    background-color: #EBE6ED;
+}
+
+.event-list-buttons .btn:hover{
+    color: black !important;
+}

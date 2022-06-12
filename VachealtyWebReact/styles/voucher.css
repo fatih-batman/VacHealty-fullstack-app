@@ -1,0 +1,37 @@
+.card-header-voucher{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #601ad2;
+    border-color: #f7f2ff;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card-body-voucher{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.event-list-buttons .btn.active, .event-list-buttons .btn:hover{
+    background-color: #a084cf;
+    color: #fff !important;
+}
+
+.best-selling{
+    font-size: 1rem;
+    font-weight: 600;
+    position: relative;
+    margin: 0;
+}
+

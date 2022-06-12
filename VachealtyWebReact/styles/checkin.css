@@ -1,0 +1,4 @@
+.event-list-buttons .btn.active, .event-list-buttons .btn:hover{
+    background-color: #a084cf;
+    color: #fff !important;
+}

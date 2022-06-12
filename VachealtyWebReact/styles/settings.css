@@ -1,0 +1,15 @@
+.venueImg{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f6f6f6;
+    border: 1px dashed #c7c4c4;
+    width: 600px;
+    height: 400px;
+    cursor: pointer;
+}
+

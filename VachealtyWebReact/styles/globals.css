@@ -1,0 +1,55 @@
+@import "~admin-lte/dist/css/adminlte.min.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import "rsuite/dist/rsuite.min.css";
+
+.rs-picker-daterange-menu {
+    z-index: 90 !important;
+}
+
+.sidebar-active .nav-link.active, .sidebar-active .nav-pills .show > .nav-link {
+    color: #f2f5f8 !important;
+    background-color: #281d36 !important;
+}
+
+.card {
+    border-radius: 5px !important;
+}
+
+.nav-pills .nav-link:hover {
+    color: white !important;
+}
+
+.brand-text {
+    color: #fff !important;
+    font-weight: 700 !important;
+}
+
+.sidebar-icon{
+    font-size: 0.9rem !important;
+}
+
+.removeBoxShadow{
+    box-shadow: none !important;
+}
+
+.iPozitif {
+    color: #55bc3f;
+}
+
+.iNegatif {
+    color: #ff1a1a;
+}
+
+.marginBottomSinovac{
+    margin-bottom:25px;
+    border:none;
+}
+
+.marginTop30{
+    margin-top: 30px;
+}
+
+.marginTop60{
+    margin-top: 60px;
+}
+

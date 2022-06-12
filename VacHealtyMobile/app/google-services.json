@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "32599434451",
+    "project_id": "vachealtyapp",
+    "storage_bucket": "vachealtyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32599434451:android:6780156cd4986dafd62026",
+        "android_client_info": {
+          "package_name": "com.example.vacHealty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32599434451-ioa8h6dvaehloff26sov4tvsa460p1ko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxfaM4E8ph1b2ysO0W16p9wtZRKAhxjVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32599434451-ioa8h6dvaehloff26sov4tvsa460p1ko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

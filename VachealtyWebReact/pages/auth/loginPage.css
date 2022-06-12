@@ -1,0 +1,76 @@
+
+.input-invalid {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+  }
+  
+  input.ng-dirty.ng-invalid {
+    border: 1px solid #dc3545;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+  
+  .vacHealty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*d-flex align-content-center align-items-center*/
+    /* margin-top: 35px;
+    margin-bottom: 54px; */
+  }
+  
+  .vacHealty-logo {
+    margin-right: 10px;
+    margin-left: -25px;
+    /* margin-left: 23px; */
+  }
+  
+  .vacHealty-text {
+    font-weight: bold;
+    color: #191126;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  
+  .input {
+    border-radius: 3px;
+  }
+  
+  .container {
+    margin-top: 6rem;
+  }
+
+  .loginButton {
+    background-color: #601AD2 !important;
+    border-color: #601AD2 !important;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-items: center;
+    font-weight: 400;
+    vertical-align: middle;
+    border-radius: 4px;
+    height: 100%;
+    min-height: 1.5rem;
+    padding: 0.2rem 2rem;
+  }
+
+
+.button{
+  align-items: center;
+  font-weight: 400;
+  vertical-align: middle;
+  border-radius: 4px;
+  height: 100%;
+  min-height: 1.5rem;
+
+  padding: 0.1rem 1.1rem;
+}

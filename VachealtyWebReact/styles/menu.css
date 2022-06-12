@@ -1,0 +1,62 @@
+.menu-btn{
+    border-radius: 4px;
+    line-height: 20px;
+    background: #a084cf;
+    align-items: center;
+    margin: 1px 0.3928571429rem;
+    min-height: 2rem;
+    min-width: 2rem;
+}
+
+.card-categories{
+    width: 500px;
+}
+
+.edit-btn{
+    background: #678cf9;
+    color: #fff;
+    width: 100px;
+    border-radius: 4px;
+    align-items: center;
+    margin: 0 0.3928571429rem;
+    min-height: 1.5714285714rem;
+}
+
+.save-btn{
+    background: #50bd35;
+    color: #fff;
+    width: 100px;
+    border-radius: 4px;
+    align-items: center;
+    margin: 0 0.3928571429rem;
+    min-height: 1.5714285714rem;
+}
+
+.remove-btn{
+    background: #ff3883;
+    color: #f5f5f5;
+    width: 100px;
+    border-radius: 4px;
+    align-items: center;
+    margin: 0 0.3928571429rem;
+    min-height: 1.5714285714rem;
+}
+
+.drink-list{
+    font-size: large;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.form-control[readonly] {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+

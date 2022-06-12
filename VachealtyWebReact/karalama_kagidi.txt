@@ -1,0 +1,67 @@
+deploy için;
+.firebasesc klasöründe
+{
+  "projects": {
+    "default": "wingding-78278" bunu
+  },
+  ile
+  {
+    "projects": {
+      "default": "wingding-development"
+    },
+    değiştir.
+    config dosyasından veri tabanını değiştir.
+    Ve deploy komutunu yaz
+    npm run deploy-dev
+    npm run deploy-prod
+
+
+
+eski hali
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if
+          request.time < timestamp.date(2022, 4, 18);
+    }
+  }
+}
+
+
+
+
+1stDoseOfVaccine hata verdi bunu mobilde şöyle düzelt.
+stDoseOfVaccine1
+
+
+
+
+
+{sinovacUsersWithCovidProcessInfo.map(item => {
+                                            // eslint-disable-next-line react/jsx-key
+                                            return <li>{JSON.stringify(item)}</li>;
+                                        })}
+
+
+
+
+    const [chestPain, setChestPain] = useState(null);
+    const [cough, setCough] = useState(null);
+    const [difficultyBreathing, setDifficultyBreathing] = useState(null);
+    const [headache, setHeadache] = useState(null);
+    const [tiredness, setTiredness] = useState(null);
+    const [lossOfSpeechOrMovement, setLossOfSpeechOrMovement] = useState(null);
+    const [lossSenseOfTasteOrSmell, setLossSenseOfTasteOrSmell] = useState(null);
+
+
+    <tbody>
+                                                {sinovacUsersWithCovidProcessInfo.map(item => (
+                                                    <tr key={item.id}>
+                                                        <td>{item.chestPain}</td>
+                                                        <td>{item.cough}</td>
+                                                        <td>{item.difficultyBreathing}</td>
+                                                        <td>{item.tiredness}</td>
+                                                    </tr>
+                                                ))}
+                                                </tbody>

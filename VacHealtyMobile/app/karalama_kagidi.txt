@@ -1,0 +1,13 @@
+
+@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        setContentView(R.layout.activity_covid_process);
+        super.onCreate(savedInstanceState);
+        Intent i = getIntent();
+        String user = (String)i.getSerializableExtra("id");
+
+    }
+
+
+userCovidProcess eklerken eğer kayıt daha önce girilmişse üzerine yazmıyor yeni ekliyor! Düzeltilmeli //TODO
+Giriş yaparken yanlış kullanıcı girildiğinde düzgün çalışıyor mu kontrol et.

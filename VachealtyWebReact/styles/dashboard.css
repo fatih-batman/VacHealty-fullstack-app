@@ -1,0 +1,44 @@
+.fontWeight700 {
+    font-weight: 700;
+}
+
+.fontWeight600 {
+    font-weight: 600;
+}
+
+.fontWeight200 {
+    font-weight: 100;
+}
+
+.fontSize09 {
+    font-size: 0.9rem;
+}
+
+.fontSize08 {
+    font-size: 0.8rem;
+}
+
+.fontSize1 {
+    font-size: 1rem;
+}
+
+.listColumnColor {
+    color:#6D6D6D;
+}
+
+.textAlignLeft {
+    text-align: left;
+}
+
+.marginBottom0 {
+    margin-bottom: 0px;
+}
+
+.marginBottom25{
+    margin-bottom:25px;
+    border:none;
+    background-color: #601AD2;
+}
+.marginBottom25:hover{
+    background-color: #48149E;
+}

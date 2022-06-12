@@ -1,0 +1,46 @@
+{
+  "name": "wingding-dashboard-react",
+  "private": true,
+  "config": {
+    "firebaseConfigDashboardDevelopment": "firebaseConfigDashboardDevelopment",
+    "firebaseConfigDashboardProduction": "firebaseConfigDashboardProduction",
+    "firebaseConfig": ""
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy-dev": "next build && next export && firebase deploy --only hosting:wingding",
+    "deploy-prod": "next build && next export && firebase deploy --only hosting:wingding-prod"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/styled": "^10.3.0",
+    "@fortawesome/fontawesome-free": "^6.0.0",
+    "admin-lte": "3.2",
+    "chart.js": "^3.7.1",
+    "deox": "^3.3.1",
+    "emotion-theming": "^10.3.0",
+    "firebase": "^9.6.6",
+    "firebase-admin": "^10.0.2",
+    "formik": "^2.2.9",
+    "next": "12.0.10",
+    "next-images": "^1.8.4",
+    "nookies": "^2.5.2",
+    "react": "17.0.2",
+    "react-chartjs-2": "^4.0.1",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "rsuite": "^5.6.1",
+    "rxjs": "^7.5.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^6.2.1",
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10"
+  }
+}
