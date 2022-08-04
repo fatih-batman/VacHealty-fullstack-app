@@ -2,6 +2,7 @@
 VacHealty mobile and web app with java,android studio,react,next,redux,firebase
 
 COVID-19 pandemisinde bütün dünya yoğun bir aşılama programı yaşadı. Uygulamamızın ilk bölümünde bireylerin COVID19 aşılarını takip ediyor ve sonraki aşı tarihini gösteriyoruz. İlk aşısını belirli bir tarihte olan birey, ikinci aşısı için belirli bir tarih ve aşı çeşidini seçebilir. İkinci bölümde ise, covid geçirmiş birey, hangi tarihlerde hastalığı geçirdiği ve süreç boyunca yaşadığı sorunları ve gösterdiği belirtileri aşı bilgilerininde kayıtlı olduğu sistemimize bildirecek. Böylece biz, belirli bir aşıyı olmuş bireylerin covid’e (ve varyantlarına) karşı hangi belirtileri daha çok gösterdiğini ve aşının başarı oranının istatiksek analizini yapabileceğiz. Bunun için bir ontoloji model oluşturuldu. Toplanacak veriler RDF olarak kaydedilecek ve SPARQL sorgularıyla izleme yapılacak.
+
 Anahtar Kelimeler: Ontoloji, Semantik Web, COVID-19, Aşılama Geçmişi, COVID-19 Belirtileri
 
  
